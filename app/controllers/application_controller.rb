@@ -14,6 +14,7 @@ end
   def counts(user)
     @count_microposts = user.microposts.count
     @count_followings = user.followings.count
-    @count_folloerrs = user.followers.count
+    @count_followers = user.followers.count
+    @count_favarites = user.favorites.count
 end
 end
